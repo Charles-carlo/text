@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --White: #fff;
+    --Black: #000;
+    --Gray: #3b3b3b;
+    --Light-gray: #a3a1a1;
+    --Lighter-gray:#e2dede;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--Lighter-gray);
+    color: var(--Black);
+}
+
+header{
+    background-color: var(--Black);
+    color: var(--Light-gray);
+}
